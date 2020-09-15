@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>740</width>
+    <height>740</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="mainwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>600</width>
+     <height>600</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="sizeConstraint">
+     <enum>QLayout::SetNoConstraint</enum>
+    </property>
+    <property name="leftMargin">
+     <number>6</number>
+    </property>
+    <property name="topMargin">
+     <number>6</number>
+    </property>
+    <property name="rightMargin">
+     <number>6</number>
+    </property>
+    <property name="bottomMargin">
+     <number>6</number>
+    </property>
+    <item row="0" column="1">
+     <widget class="QPlainTextEdit" name="mainText"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QPlainTextEdit" name="zmqText"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>740</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionOpenAsset">
+   <property name="text">
+    <string>Open Asset...</string>
+   </property>
+   <property name="shortcut">
+    <string extracomment="Open file for creating avatar">Ctrl+O</string>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>false</bool>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionAnimate">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Animate</string>
+   </property>
+  </action>
+  <action name="actionSet_Normal_Map">
+   <property name="text">
+    <string>Set Normal Map</string>
+   </property>
+  </action>
+  <action name="actionSet_AO_Map">
+   <property name="text">
+    <string>Set AO Map</string>
+   </property>
+  </action>
+  <action name="actionSet_Diffuse_Map">
+   <property name="text">
+    <string>Set Diffuse Map</string>
+   </property>
+  </action>
+  <action name="actionSet_Spec_Map">
+   <property name="text">
+    <string>Set Spec Map</string>
+   </property>
+   <property name="toolTip">
+    <string>Set Spec Map</string>
+   </property>
+  </action>
+  <action name="actionSet_Mask_Map">
+   <property name="text">
+    <string>Set Mask Map</string>
+   </property>
+  </action>
+  <action name="actionUpdateTextures">
+   <property name="text">
+    <string>Update Textures</string>
+   </property>
+  </action>
+  <action name="actionSaveCamera">
+   <property name="text">
+    <string>Save Camera</string>
+   </property>
+  </action>
+  <action name="actionLoadCamera">
+   <property name="text">
+    <string>Load Camera</string>
+   </property>
+  </action>
+  <action name="actionChangeBackground">
+   <property name="text">
+    <string>Change Background</string>
+   </property>
+  </action>
+  <action name="actionSaveScreenshot">
+   <property name="text">
+    <string>Save Screenshot</string>
+   </property>
+  </action>
+  <action name="actionViewISO">
+   <property name="text">
+    <string>View ISO</string>
+   </property>
+  </action>
+  <action name="actionViewFRONT">
+   <property name="text">
+    <string>View FRONT</string>
+   </property>
+  </action>
+  <action name="actionViewBACK">
+   <property name="text">
+    <string>View BACK</string>
+   </property>
+  </action>
+  <action name="actionViewTOP">
+   <property name="text">
+    <string>View TOP</string>
+   </property>
+  </action>
+  <action name="actionViewBOTTOM">
+   <property name="text">
+    <string>View BOTTOM</string>
+   </property>
+  </action>
+  <action name="actionViewLEFT">
+   <property name="text">
+    <string>View LEFT</string>
+   </property>
+  </action>
+  <action name="actionViewRIGHT">
+   <property name="text">
+    <string>View RIGHT</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
